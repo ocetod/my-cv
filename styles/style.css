@@ -1,0 +1,151 @@
+@import	url('header.css');
+@import url('intro.css');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+@import url('mozaic.css');
+
+
+body {
+	background-color: black;
+	font-family:'Spartan', sans-serif;
+	font-weight: x-small;
+	margin: 0;
+
+}
+
+h1 {
+	color: black;
+	text-decoration: underline;
+	font-family: 'Exo', sans-serif;
+	font: bold;
+
+}
+h2 {
+	font-family:'Exo', sans-serif;
+	font: bold;
+	font-weight: x-small;
+}
+h3 {
+	font-family:'Exo', sans-serif;
+	font: bold;
+	font-weight: xx-large;
+	color : white;
+	margin-left: 10%;
+	text-decoration: underline;
+
+}
+
+h4 {
+	color : grey;
+	text-decoration: underline;
+	font-family: 'Exo', sans-serif;
+	font: bold;
+}
+
+.experiencespro {
+	margin-top: 60px;
+    margin-bottom: 8rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.etudes {
+	margin-top: 60px;
+    margin-bottom: 8rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.myvideo {
+	margin-left: 187px;
+}
+
+.button-blue {
+    background-color: rgb(048, 057, 049);
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 150%;
+    margin: 8px auto;
+    display: block;
+    text-align: center;
+    border: 42px rgb(252, 168, 085);
+    margin-left: -33px;
+}
+
+.button-blue:hover {
+	background-color: grey;
+	transition: 1s;
+ }
+
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: center;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+.carousel-item img {
+	height: 600px;
+	width: 80%;
+	object-fit: cover;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	padding: 32px 0;
+	background-color: rgb(190, 190, 190); 
+	margin-top: 24px; 
+}
+
+.button-footer {
+    background-color: rgb(048, 057, 049);
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 40%;
+    margin: 8px auto;
+    display: block;
+    text-align: center;
+    border: 42px rgb(252, 168, 085);
+}
+
+
+
+
+
+
+
+
+
